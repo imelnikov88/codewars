@@ -27,17 +27,17 @@ console.log(descendingOrder(145263))
 console.log(descendingOrder(123456789))
 console.log(descendingOrder(1230456789))
 
-// BEST PRACTIC1
+// BEST PRACTIC 1
 // function descendingOrder(n){
 //   return parseInt(String(n).split('').sort().reverse().join(''))
 // }
 
-// BEST PRACTIC2
+// BEST PRACTIC 2
 // function descendingOrder(n){
 //   return +(n + '').split('').sort(function(a,b){ return b - a }).join('');
 // }
 
-// BEST PRACTIC3
+// BEST PRACTIC 3
 // function descendingOrder(n){
 //   return parseInt(n.toString().split('').sort().reverse().join(''), 10);
 // }
