@@ -33,7 +33,7 @@ console.log(sum([1, 5.2, 4, 0, -1]))
 console.log(sum([-2.398]))
 console.log(sum([]))
 
-// POPULAR answer
+// POPULAR Answer
 // function sum(numbers) {
 //   return numbers.reduce((a, b) => a + b, 0);
 // }
